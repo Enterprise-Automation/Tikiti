@@ -51,6 +51,7 @@ font-weight: bold;
   color: white;
   padding: 10px;
   padding-top: 170px;
+  margin-left:280px;
 }
 
 
@@ -110,9 +111,12 @@ top: 0;
 
 .paragraph{
   color: grey;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 50px;
   font-family: "Todes";
+  padding-left: 300px;
+  padding-right: 300px;
+
 }
 
 .images-container{
@@ -137,10 +141,17 @@ top: 0;
 
 
 
+
+
+
+
 @media only screen and (max-width: 992px){
   .paragraph {
       font-size: 20px;
       line-height: 2.75rem;
+      padding-left: 0px;
+      padding-right: 0px;
+
   }
 
   .head-row{

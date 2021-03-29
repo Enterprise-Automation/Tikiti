@@ -4,8 +4,14 @@ import Link from 'next/link'
 
 function Navbar() {
     const [collapse, setCollapse] = useState(false)
+    const [destinationCollapse, setDestinationCollapse] = useState(false)
+
     const toggleNav = () => {
         setCollapse(!collapse)
+    }
+
+    const toggleDestinationNav = () => {
+        setDestinationCollapse(!destinationCollapse)
     }
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,7 +34,7 @@ function Navbar() {
                     <ul style={{ backgroundColor: "white", marginTop: "-5px", marginLeft: "-20px" }} className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <Link href="/">
-                                <a className="nav-link active" href="#">HONEYMOONS</a>
+                                 <a  className="nav-link active" href="#">DESTINATIONS</a> 
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -38,12 +44,12 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link href="/">
-                                <a className="nav-link " href="#">HENS &amp; STAGS</a>
+                                <a className="nav-link " href="#">RURAL RETREATS</a>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/">
-                                <a className="nav-link " href="#">BEACH BREAKS</a>
+                                <a className="nav-link " href="#">ADVENTURE ESCAPES</a>
                             </Link>
                         </li>
                     </ul>

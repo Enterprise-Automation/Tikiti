@@ -17,29 +17,45 @@ export default function Home() {
   return (
     <>
       <NavBar />
+      .container>.row>6.col-xs-12.col-sm-3.col-md-2 
       <div className="video-background-container">
-        <video className="bg-vid" ref={videoRef} playing={true} autoplay loop muted width="100%">
+        <video className="bg-vid" ref={videoRef}  autoPlay loop muted width="100%">
           <source src="/videos/beachreverse.mp4" type="video/mp4" />
         </video>
         <div className="content-container">
+        <div className="head-row sm-2 lg-2">
+            You Pack We Plan
+         </div>
           <div className="button">BOOK NOW</div>
         </div>
       </div>
-
-      <div class="text-container">
-        <div class="column-para">
-          <div class="head-row sm-2 lg-2">
+   <div style={{textAlign:"center"}}>
+      <div className="text-container">
+        <div className="column-para">
+          <div className="head-row sm-2 lg-2">
             Breathtaking destinations
          </div>
-          <div class="paragraph">
+          <div className="paragraph">
             From the melting pot of diverse experiences waiting to be discovered in Australia,  New Zealand &amp; the  Pacific Islands and the temples and tigers of Asia, to Americas's glittering cites and wide open spaces,  the pristine beaches and sparkling lagoons of the Indian Ocean and the sand dunes and skyscrapers of  Arabia, let us tailor-make the perfect holiday.
           </div>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg images-container">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Getaways</div>
+            <div className="images">
+              <Image
+                src="/images/beach.jpg"
+                alt="Adventure"
+                width={600}
+                height={400}
+              />
+            </div>
+            
+          </div>
+          <div className="col-lg images-container">
             <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Honeymoons</div>
             <div className="images">
               <Image
@@ -50,21 +66,34 @@ export default function Home() {
               />
             </div>
           </div>
-          <div class="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Adventures</div>
+        </div>
+        <div className="row">
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Baby Moon</div>
             <div className="images">
               <Image
-                src="/images/jungle.jpg"
-                alt="Adventure"
+                src="/images/babymoon.jpg"
+                alt="Hens"
+                width={600}
+                height={400}
+              />
+            </div>
+          </div>
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Group Trips</div>
+            <div className="images">
+              <Image
+                src="/images/luxury-groups-trips.jpg"
+                alt="Beach"
                 width={600}
                 height={400}
               />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Hens &amp; Stags</div>
+        <div className="row">
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Rural Retreats</div>
             <div className="images">
               <Image
                 src="/images/spain.jpg"
@@ -74,11 +103,11 @@ export default function Home() {
               />
             </div>
           </div>
-          <div class="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Beach Breaks</div>
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: "1", color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Adventure Escapes</div>
             <div className="images">
               <Image
-                src="/images/beach.jpg"
+                src="/images/jungle.jpg"
                 alt="Beach"
                 width={600}
                 height={400}
@@ -86,6 +115,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   )
