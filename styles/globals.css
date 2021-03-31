@@ -64,15 +64,72 @@ font-weight: bold;
   text-decoration: none !important;
 }
 
+/* destination page */
+
+
 .container-contain{
   max-width: 1640px;
+  text-align: center;
+
 }
+
+.destination-name{
+  font-size: 60px;
+  font-family: "Todes";
+  padding-top: 60px;
+}
+
+.destination-slogan{
+  font-family: "Todes";
+  font-size: 25px;
+}
+
+.destination-info{
+  font-size: 2vh;
+  font-family: "Todes";
+}
+
+.flex{
+  display: inline-flex;
+}
+
+.info-sub{
+   font-size: 20px;
+   font-family: "GillSans";
+}
+
+.info-answer{
+ /* padding-left: 10px;
+ font-size: 18px;
+ margin-bottom: 10px; */
+ font-family: "Todes";
+ text-align: left;
+}
+
+.info-title{
+  font-size: 25px;
+  text-decoration: underline ;
+  font-family: "Todes";
+}
+
+.destination-names{
+  text-align: center;
+}
+
 
 .banner{
   height:300px;
+  margin-top: 95px;
     background-size: cover;
     background-position: center;
 }
+
+.gap{
+  margin-bottom: 50px;
+}
+
+
+/* destination page */
 
 
 .nav-link:hover {
@@ -207,6 +264,8 @@ top: 0;
   color: #b4cdd6;
 }
 
+
+
 .region-names > a{
   margin-bottom: 10px;
   display: block;
@@ -315,6 +374,18 @@ top: 0;
       padding-right: 0px;
 
   }
+  .banner{
+    margin-top: 0px;
+  }
+
+  .destination-name{
+    font-size: 40px;
+  }
+
+  .destination-slogan{
+    font-size: 15px;
+  }
+
   .footer-dark .item.social {
     text-align:center;
     margin-top:20px;
