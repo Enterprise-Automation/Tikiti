@@ -1,0 +1,24 @@
+{
+    "Africa":{
+        "Kenya": {
+        }
+    },
+    "Arabia": {
+        "Abu Dhabi": {
+            "description": "A lush desert oasis known as the garden city of the Gulf, Abu Dhabi, the capital of the UAE, is a fusion of traditional architecture with an unmistakably cosmopolitan edge. Attractive, glamorous and distinctly Arabian, the city is truly hitting its stride.\n\nFifty years ago, Abu Dhabi was little more than a ﬁshing village made up of a fort, a few coral buildings and a scattering of Barasti huts and while the city is now unrecognisable, the rest of the emirate remains very ‘Arabian Sands’. Meander through the streets witnessing authentic mosques and charming souks, or embrace the modern multicultural draw of impressive resorts and desert, beach or urban experiences. Enjoy the world’s fastest roller coaster or the exhilarating adventure of Yas Waterworld, go golﬁng on spectacular courses, shopping in designer stores or partake in an unforgettable race day on the F1™ Grand Prix circuit. Traditional Arabic cuisine is widely available and a fragrant experience for thesenses, while the inﬂuence of a wide range of other cultures has opened up the restaurant scene and the city has developed a strong reputation for its diverse gastronomy. The climate is consistently superb, activities are boundless and the hotels oﬀer an extremely high standard of comfort and service.",
+            "flight_time":"7 Hours",
+            "flight_information": "Etihad Airways from 3 regional airports. British Airways from London Heathrow.",
+            "time_difference":"+4 Hours",
+            "currency":"Dirham",
+            "combine_with":["Maldives", "Seychelles", "Dubai", "Sri Lanka", "India", "South East Asia"]
+        },
+        "Dubai": {
+            "description": "At the cutting edge of the modern world, Dubai is a fast paced and highly stylised urban centre with world-class hotels, events, sports and leisure activities; it is hard to imagine that it was once a town for pearl fishermen.\n\nLooking out over the mesmerising Arabian Gulf, this centre for technological and architectural innovation has revolutionised the hospitality sector and is a pioneer for a multitude of new and exciting concepts. You will find an array of Arabic cuisine and cultures in Dubai, with Moroccan, Egyptian, Tunisian and Lebanese influences throughout. Glamorous, yet conveying an enchanting eastern mystery, the hotels here are sophisticated, regal and offer some of the highest standards of service in the world. Step into Dubai Opera, the city’s latest architectural masterpiece, be blown away by the Michelin-star fine dining, visit exhilarating waterparks, play on championship golf courses, enjoy year-round sunshine, or even take to the indoor ski slopes. Watersports are also catered for and contrast to the host of desert-based activities that are available. From authentic gold souks and spice markets, camel racing and Bedouin-style tented resorts, to contemporary high rise towers, underwater restaurants and designer shopping malls, Dubai is vibrant, buzzing and an ultra modern city.",
+            "flight_time":"7 Hours",
+            "flight_information": "Emirates from 6 regional airports. Qantas, Virgin Atlantic and British Airways from London Heathrow. Air France/KLM from 18 regional airports (via Paris/Amsterdam).",
+            "time_difference":"+4 Hours",
+            "currency":"Dirham",
+            "combine_with":["Maldives", "Mauritius", " Seychelles", "Sri Lanka", "India", "South East Asia"]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Inspiration": [
+        {
+            "display": "Honeymoons",
+            "target": "/inspiration/honeymoons"
+        },
+        {
+            "display": "Minimoons",
+            "target": "/inspiration/minimoons"
+        },
+        {
+            "display": "Babymoon",
+            "target": "/inspiration/babymoons"
+        },
+        {
+            "display": "Luxury Group Trips",
+            "target": "/inspiration/luxurygrouptrips"
+        },
+        {
+            "display": "Rural Retreats",
+            "target": "/inspiration/ruralretreats"
+        },
+        {
+            "display": "Adventure Escapes",
+            "target": "/inspiration/adventureescapes"
+        },
+        {
+            "display": "Vibrant Nightlife",
+            "target": "/inspiration/vibrantnightlife"
+        }
+    ]
+}
