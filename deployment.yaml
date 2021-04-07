@@ -1,0 +1,64 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+  name: ethan
+  namespace: tikiti-dev
+spec:
+  rules:
+  - host: dev.tikiti.co.uk
+    http:
+      paths:
+      - backend:
+          serviceName: web
+          servicePort: 80
+  tls:
+  - hosts:
+    - dev.tikiti.co.uk
+    secretName: tikiti-dev-tls-cert
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: code-server
+---
+apiVersion: v1
+kind: Service
+metadata:
+ name: web
+ namespace: tikiti-dev
+spec:
+ ports:
+ - port: 80
+   name: https
+   protocol: TCP
+ selector:
+   app: web
+ type: ClusterIP
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: web
+  name: web
+  namespace: tikiti-dev
+spec:
+  selector:
+    matchLabels:
+      app: web
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - image: enterpriseautomation/tikiti-web:dev
+        imagePullPolicy: Always
+        name: web
+        ports:
+        - containerPort: 80
+          name: http
+
+   
