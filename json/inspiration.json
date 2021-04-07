@@ -1,32 +1,42 @@
 {
-    "Inspiration": [
-        {
-            "display": "Honeymoons",
-            "target": "/inspiration/honeymoons"
+    "Inspiration": {
+        "Honeymoons":{
+            "name": "Honeymoons",
+            "target": "/inspiration/honeymoons",
+            "banner_image":"/images/inspirationBanners/honeymoonBanner.png"
         },
-        {
-            "display": "Minimoons",
-            "target": "/inspiration/minimoons"
+        "Luxury Getaways":{
+            "name": "Luxury Getaways",
+            "target": "/inspiration/luxurygetaways"
         },
-        {
-            "display": "Babymoon",
+        "Babymoons":{
+            "name": "Babymoons",
             "target": "/inspiration/babymoons"
         },
-        {
-            "display": "Luxury Group Trips",
-            "target": "/inspiration/luxurygrouptrips"
+        "Special Occasions":{
+            "name": "Special Occasions",
+            "target": "/inspiration/specialoccasions"
         },
-        {
-            "display": "Rural Retreats",
-            "target": "/inspiration/ruralretreats"
+        "Romantic Holidays":{
+            "name": "Romantic Holidays",
+            "target": "/inspiration/romanticholidays"
         },
-        {
-            "display": "Adventure Escapes",
-            "target": "/inspiration/adventureescapes"
+        "Family Holidays":{
+            "name": "Family Holidays",
+            "target": "/inspiration/familyholidays"
         },
-        {
-            "display": "Vibrant Nightlife",
+        "Luxury Hen Holidays":{
+            "name": "Luxury Hen Holidays",
+            "target": "/inspiration/luxuryhenholidays"
+        },
+        "Luxury Stag Holidays":{
+            "name": "Luxury Stag Holidays",
+            "target": "/inspiration/luxurystagholidays"
+        },
+        "Vibrant Nightlife":{
+            "name": "Vibrant Nightlife",
             "target": "/inspiration/vibrantnightlife"
         }
-    ]
+    }
 }
+        

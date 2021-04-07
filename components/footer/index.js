@@ -21,7 +21,7 @@ function Footer() {
                         <h3>About</h3>
                         <ul>
                             <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
                             <li><a href="#">Careers</a></li>
                         </ul>
                     </div>

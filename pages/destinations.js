@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Destination() {
-    return (
-        <div>
-            destinations.html
-        </div>
-    )
-}
+// function Destination() {
+//     return (
+//         <div>
+//             destinations.html
+//         </div>
+//     )
+// }
 
-export default Destination
+// export default Destination

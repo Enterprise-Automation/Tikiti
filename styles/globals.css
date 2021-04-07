@@ -1,5 +1,10 @@
 @font-face {
   font-family: "GillSans";
+  font-weight: normal;
+  src: url("/fonts/GillSans2/Gill-Sans.ttf") format("opentype");
+}
+@font-face {
+  font-family: "GillSans";
   font-weight: bold;
   src: url("/fonts/GillSans2/Gill-Sans-Bold.ttf") format("opentype");
 }
@@ -9,7 +14,9 @@
   font-weight: bold;
   src: url("/fonts/Todes/Todes-Regular.ttf") format("opentype");
 }
-
+body {
+  background: #F1F1F1;
+}
 
 .type-images{
   margin-bottom: 100px;
@@ -19,6 +26,68 @@
   height: 100px;
 }
 
+.navbar-brand{
+  cursor: pointer;
+}
+
+.travel-detail{
+  padding: 10px 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px -5px #0000006b;
+  position: relative;
+}
+
+.travel-detail > .title{
+  color: grey;
+  font-family: "Todes";
+  font-size: 13px;
+}
+
+.travel-detail > .value{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "GillSans";
+}
+
+.travel-detail > .icon{
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 18px;
+  opacity: 0.7;
+
+}
+
+
+.travel-details-container{
+ margin-top: -20px;
+}
+
+.banner-text-container{
+  max-width: 1366px;
+  margin: 0 auto; 
+  display: flex;
+  height: 100%;
+  flex-direction: column-reverse;
+  padding-bottom: 50px;
+}
+
+
+.banner-text-container > .banner-title {
+  color: white;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 0 0 6px #00000036;
+}
+.banner-text-container > .banner-slogan {
+  color: white;
+  /* font-weight: bold; */
+  font-size: 30px;
+  text-shadow: 0 0 6px #00000036;
+}
   
 .nav-menu-container{
   position:fixed;
@@ -42,7 +111,7 @@ a {
 }
 
 .max-width{
-  max-width: 1250px;
+  max-width: 1366px;
 }
 
 .nav-link {
@@ -68,8 +137,9 @@ font-weight: bold;
 
 
 .container-contain{
-  max-width: 1640px;
-  text-align: center;
+  max-width: 1336px;
+  margin: 0 auto;
+  position: relative;
 
 }
 
@@ -85,8 +155,8 @@ font-weight: bold;
 }
 
 .destination-info{
-  font-size: 2vh;
-  font-family: "Todes";
+  font-size: 16px;
+  font-family: "GillSans";
 }
 
 .flex{
@@ -100,10 +170,11 @@ font-weight: bold;
 
 .info-answer{
  /* padding-left: 10px;
- font-size: 18px;
+ 
  margin-bottom: 10px; */
  font-family: "Todes";
- text-align: left;
+ margin-top: 30px;
+ font-size: 18px;
 }
 
 .info-title{
@@ -118,7 +189,8 @@ font-weight: bold;
 
 
 .banner{
-  height:300px;
+  position: relative;
+  height:500px;
   margin-top: 95px;
     background-size: cover;
     background-position: center;

@@ -35,7 +35,7 @@ export default function Home() {
       <div className="text-container">
         <div className="column-para">
           <div className="head-row sm-2 lg-2">
-            Breathtaking destinations
+            A Little Inspiration
          </div>
           <div className="paragraph">
             From the melting pot of diverse experiences waiting to be discovered in Australia,  New Zealand &amp; the  Pacific Islands and the temples and tigers of Asia, to Americas's glittering cites and wide open spaces,  the pristine beaches and sparkling lagoons of the Indian Ocean and the sand dunes and skyscrapers of  Arabia, let us tailor-make the perfect holiday.

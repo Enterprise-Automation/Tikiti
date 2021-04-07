@@ -6,6 +6,7 @@ import inspirationData from  '../../json/inspiration.json'
 
 
 function Navbar() {
+    console.log(inspirationData.Inspiration)
     const [mobileNav, setMobileNav] = useState(false)
     const [selectedMenuItem, setSelectedMenuItemState] = useState(null)
 
@@ -28,6 +29,7 @@ function Navbar() {
                 <Link href="/">
                     <div className="navbar-brand">
                         <Image
+
                             src="/images/brand/Tikiti_Logo_Peach.png"
                             alt="Logo"
                             width={200}
@@ -80,11 +82,13 @@ function Navbar() {
                 <div className="container max-width">
                     <div className="row">
                         <div className="col-sm-2">
-                            <div className="region-title">Africa</div>
-                            <div className="region-names">
-                            {inspirationData.Inspiration.map((ins) => 
-                             <Link href="#" className="region-name">{ins.display}</Link>
-                               )}
+                            <div className="region-title">Inspirations</div>
+                            <div className="region-names" >
+                                {Object.keys(inspirationData).map(Inspiration => 
+                                    Object.keys(inspirationData[Inspiration]).map(ins => 
+                                       <Link key={ins}  href={`/inspirations/${Inspiration}/${ins}`}  className="region-name">{ins}</Link> 
+                                        )
+                            )}
                             </div>
                         </div>
                     </div>
@@ -99,7 +103,7 @@ function Navbar() {
                     {Object.keys(destinations).map(region => {
                         return(<div key={region} className="col-sm-2">
                             <div className="region-title">{region}</div>
-                            <div className="region-names">
+                            <div className="region-names"onClick={() => setSelectedMenuItem(null)}>
                             {Object.keys(destinations[region]).map(location => 
                                     <Link key={location} href={`/destination/${region}/${location}`} className="region-name">{location}</Link>
                             )}
@@ -205,17 +209,12 @@ function Navbar() {
                     <div className="row">
                         <div className="col-sm-2">
                             <div className="region-title">Contact</div>
-                            <div className="region-names">
-                          
+                            <div className="region-names">    
                              <Link href="#" className="region-name">Book A Video Appointment</Link>
                              <Link href="#" className="region-name">Call</Link>
                              <Link href="#" className="region-name">Whatsapp</Link>
                              <Link href="#" className="region-name">Email</Link>
-                             <Link href="#" className="region-name">Socials</Link>
-
-
-
-                               
+                             <Link href="#" className="region-name">Socials</Link>                   
                             </div>
                         </div>
                     </div>

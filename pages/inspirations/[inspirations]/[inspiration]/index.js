@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import json from '../../../../json/destinations.json'
+import json from '../../../../json/inspiration.json'
 import NavBar from '../../../../components/navbar'
 import Footer from '../../../../components/footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,13 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlaneDeparture,faClock,faMoneyBill,faSun} from '@fortawesome/free-solid-svg-icons'
 
 import Image from 'next/image'
-const Destination = () => {
+const Inspiration = () => {
   const router = useRouter()
-  const { region, destination } = router.query
+  const { inspirations,inspiration } = router.query
   let data
-    if(region){
-     data = json[region][destination]
-    }
+  if(inspiration){
+    data = json[inspirations][inspiration]
+  }
   return (
     <>
     <NavBar/>
@@ -86,4 +86,4 @@ const Destination = () => {
   )
 }
 
-export default Destination
+export default Inspiration
