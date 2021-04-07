@@ -14,7 +14,7 @@ stages:
 timeout: 60
 notification:
   recipients:
-  - recipient: tikiti
+  - recipient: development
     notifier: c-w9bt4:n-hgbrx
   condition:
   - Success
