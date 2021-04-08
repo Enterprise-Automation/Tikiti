@@ -70,7 +70,7 @@ const Destination = () => {
     <div className="destination-images">
               {data?.image1 && <Image
                 src={data?.image1}
-                alt="abudhabi"
+                alt="destination image"
                 width={600}
                 height={400}
               />}

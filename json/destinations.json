@@ -1,37 +1,44 @@
 {
     "Africa":{
         "Kenya": {
+            "name":"Kenya",
+            "banner_image":"/images/destinationBanners/kenyaBanner.png"
 
         },
         "Namibia":{
+            "name":"Namibia",
+            "banner_image":"/images/destinationBanners/namibiabanner.png"
 
         },
         "South Africa":{
-
+            "name":"South Africa",
+            "banner_image":"/images/destinationBanners/southafricabanner.png"
         },
         "Tanzania":{
-
+            "name":"Tanzania",
+            "banner_image":"/images/destinationBanners/tanzaniabanner.png"
         },
         "Zanzibar":{
-
+            "name":"Zanzibar",
+            "banner_image":"/images/destinationBanners/zanzibarbanner.png"
         }
     },
     "Arabia": {
         "Oman":{
-
+            "name":"Oman"
         },
         "Abu Dhabi": {
             "name":"Abu Dhabi",
             "banner_image":"/images/destinationBanners/abudhabibanner.png",
-            "image1":"/images/destinationImages/abudhabi1.jpg",
-            "slogan":"Live Wild In Abu Dhabi",
+
+            
             "description": ["A lush desert oasis known as the garden city of the Gulf, Abu Dhabi, the capital of the UAE, is a fusion of traditional architecture with an unmistakably cosmopolitan edge. Attractive, glamorous and distinctly Arabian, the city is truly hitting its stride." , "Fifty years ago, Abu Dhabi was little more than a ﬁshing village made up of a fort, a few coral buildings and a scattering of Barasti huts and while the city is now unrecognisable, the rest of the emirate remains very ‘Arabian Sands’. Meander through the streets witnessing authentic mosques and charming souks, or embrace the modern multicultural draw of impressive resorts and desert, beach or urban experiences. Enjoy the world’s fastest roller coaster or the exhilarating adventure of Yas Waterworld, go golﬁng on spectacular courses, shopping in designer stores or partake in an unforgettable race day on the F1™ Grand Prix circuit. Traditional Arabic cuisine is widely available and a fragrant experience for thesenses, while the inﬂuence of a wide range of other cultures has opened up the restaurant scene and the city has developed a strong reputation for its diverse gastronomy. The climate is consistently superb, activities are boundless and the hotels oﬀer an extremely high standard of comfort and service."],
             "flight_time":"7 Hours",
             "flight_information": "Etihad Airways from 3 regional airports. British Airways from London Heathrow.",
             "time_difference":"+4 Hours",
             "currency":"Dirham",
-            "combine_with":["Maldives", "Seychelles", "Dubai", "Sri Lanka", "India", "South East Asia"],
-            "temperature": "22˚c-30˚c"
+            "combine_with":["Maldives", "Seychelles", "Dubai", "Sri Lanka", "India", "South East Asia"]
+
         },
         "Dubai": {
             "name": "Dubai",
@@ -49,68 +56,89 @@
     },
     "Caribbean & Mexico":{
         "Antigua":{
-
+            "name":"Antigua"
         },
         "Bahamas":{
-
+            "name":"Bahamas"
         },
         "Barbados":{
-
+            "name":"Barbados"
         },
         "Cuba":{
-
+            "name":"Cuba"
         },
         "St Lucia":{
-
+            "name":"St Lucia"
         },
         "Grenada":{
-
+            "name":"Grenada"
         },
         "The Grenadines":{
-
+            "name":"The Grenadines"
         },
         "Jamaica":{
-
+            "name":"Jamaica"
         },
         "Turks and Caicos":{
-
+            "name":"Turks and Caicos"
         },
         "Mexico":{
-
+            "name":"Mexico"
         }
     },
     "Europe":{
         "Croatia":{
-
+            "name":"Croatia"
         },
         "France":{
-
+            "name":"France"
         },
         "Italy":{
-
+            "name":"Italy",
+             
+            "image1":"/images/destinationImages/italy1.png"
         },
         "Greece":{
+            "name":"Greece",
 
+            "image1":"/images/destinationImages/greece1.png"
         },
         "Portugal":{
-
+            "name":"Portugal"
         },
         "Spain":{
-
+            "name":"Spain"
         },
-        "Turkey":{
-
+        "Turkey":{ 
+            "name":"Turkey"
         }
     },
     "USA":{
         "Arizona":{
+            "name":"Arizona",
 
+
+
+            "description":["Home to show-stopping landmarks, from the faces of Monument Valley to the sheer crevices of the Grand Canyon and statuesque Cathedral Rock, as well as iconic destinations and striking landscapes, Arizona is a state for exploration. Immerse in the majestic beauty of this diverse landscape, with the green golf courses of Scottsdale, the saguaro-dotted deserts of Tucson, the sunset glow of Camelback Mountain and the red rocks of Sedona. Arizona really does offer something for everyone, from relaxing poolside at luxury resorts, to exploring the galleries, sophisticated shops and excellent restaurants. Ideal for both outdoor adventures and relaxing retreats, the rugged terrain provides the perfect backdrop for adventurous pursuits. Venture through the desert on hikes and tours or, for something more daring, thrill seekers can go rock climbing and skydiving while those who enjoy being on the water can try rafting, canoeing and kayaking along the Colorado River. Whether you seek a refined resort with stylish finishes or a luxury ranch with a rustic edge, there is no shortage of impressive accommodation. Embrace this ‘cowboy country’ through a host of authentic experiences, from horse riding with crossbows to barbecue dinners at sunset, where you will feel like the star of your own Western. Whether by Jeep, horseback, bike or even on foot, there is no end of amazing sights to behold in Arizona."],
+            "flight_time":"10hrs 40m",
+            "flight_information":"British Airways from London Heathrow to Phoenix",
+            "time_difference":"-7 Hours",
+            "currency":"US Dollar"
         },
         "City Collection":{
+            "name":"City Collection"
 
         },
         "California":{
+            "name":"California",
+            "banner_image":"/images/destinationBanners/californiabanner.png",
 
+
+            "description":["California encompasses some of America’s most loved cities, coastlines and car journeys, from the streets of Santa Barbara to the surfing beaches of Malibu and snaking roads of Route 1. See the sights in San Francisco, a city famed for cable cars, Alcatraz and the iconic Golden Gate Bridge, or visit Los Angeles, the ‘City of Angels’, where the footprints and handprints of celebrities are literally stamped in the streets and the glittering Hollywood stars shine bright. Be sure to soak up the sun on Venice Beach, ride the big wheel on Santa Monica’s boardwalk and walk the cobblestone paths beside pretty houses in Carmel-by-the-Sea. Away from the cities you can watch the sun set across the Big Sur, where the dramatic coastline stretches along winding roads above sheer cliffs, or hike along the trails and beaches to observe whales just off shore. Enter every wine connoisseur’s paradise with the vineyards of Sonoma and Napa Valley, where stunning sweeping landscapes are a true treat for the senses. Journey the scenic 17-mile drive of privately owned road at Pebble Beach or explore the beauty of Yosemite National Park and the waters of Lake Tahoe. Dotted between the hills of San Francisco and the beaches of fun-filled San Diego, you will find wonderful cities, towns and rural spots with a wide variety of activities and attractions. There is so much to see and enjoy in California that when it comes to planning your trip, let us help you find the perfect combination of the obvious and the not so obvious. "],
+            "flight_time":"11hrs 5m",
+            "flight_information":"British Airways from London Heathrow to Los Angeles, San Francisco, San Jose, San Diego and from London Gatwick to Oakland (seasonal). Virgin Atlantic from London Heathrow to Los Angeles and San Francisco, and from Manchester to San Francisco (seasonal). Additional services available with American Airlines, United Airlines and Air New Zealand. ",
+            "time_difference":"-8 Hours",
+            "currency":"US Dollar"
         },
         "Florida":{
 

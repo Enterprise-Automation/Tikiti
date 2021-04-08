@@ -7,13 +7,13 @@ import Image from 'next/image'
 import { useRef, useEffect } from 'react'
 export default function Home() {
 
-  const videoRef = useRef();
+  // const videoRef = useRef();
 
-  useEffect(() => {
-    setTimeout(() => {
-      videoRef.current.play()
-    }, 100)
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     videoRef.current.play()
+  //   }, 100)
+  // }, []);
 
   return (
     <>
@@ -21,9 +21,10 @@ export default function Home() {
       
       
       <div className="video-background-container">
-        <video className="bg-vid" ref={videoRef}  autoPlay loop muted width="100%">
+     
+        {/* <video className="bg-vid" ref={videoRef}  autoPlay loop muted width="100%">
           <source src="/videos/beachreverse.mp4" type="video/mp4" />
-        </video>
+        </video> */}
         <div className="content-container">
         <div className="head-row sm-2 lg-2">
             You Pack We Plan
@@ -46,11 +47,11 @@ export default function Home() {
       <div className="container type-images">
         <div className="row">
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Getaways</div>
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Honeymoons</div>
             <div className="images">
               <Image
-                src="/images/beach.jpg"
-                alt="Luxury Getaways"
+                src="/images/homeinspirations/honeymoon.png"
+                alt="Honeymoons"
                 width={600}
                 height={400}
               />
@@ -58,11 +59,11 @@ export default function Home() {
             
           </div>
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Honeymoons</div>
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Getaways</div>
             <div className="images">
               <Image
-                src="/images/honeymoon.jpg"
-                alt="Honeymoon"
+                src="/"
+                alt="Luxury Getaways"
                 width={600}
                 height={400}
               />
@@ -70,47 +71,23 @@ export default function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Baby Moon</div>
-            <div className="images">
-              <Image
-                src="/images/babymoon.jpg"
-                alt="Babymoon"
-                width={600}
-                height={400}
-              />
-            </div>
-          </div>
-          <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Group Trips</div>
-            <div className="images">
-              <Image
-                src="/images/luxury-groups-trips.jpg"
-                alt="Luxury Group Trips"
-                width={600}
-                height={400}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Rural Retreats</div>
-            <div className="images">
-              <Image
-                src="/images/rural-escapes.jpg"
-                alt="Rural Retreats"
-                width={600}
-                height={400}
-              />
-            </div>
-          </div>
           <div className="col-lg images-container">
             <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Adventure Escapes</div>
             <div className="images">
               <Image
-                src="/images/jungle.jpg"
-                alt="Adventure"
+                src="/images/homeinspirations/adventureescapes.jpg"
+                alt="Adventure Escapes"
+                width={600}
+                height={400}
+              />
+            </div>
+          </div>
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Romantic Holidays</div>
+            <div className="images">
+              <Image
+                src="/"
+                alt="Romantic Holidays"
                 width={600}
                 height={400}
               />
@@ -119,21 +96,45 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Vibrant Nightlife</div>
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Family Holidays</div>
             <div className="images">
               <Image
-                src="/images/vibrant-nightlife.jpg"
-                alt="VibrantNightlife"
+                src="/"
+                alt="Family Holidays"
                 width={600}
                 height={400}
               />
             </div>
           </div>
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Empty</div>
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Hen Holidays</div>
             <div className="images">
               <Image
-                src="/images/empty.jpg"
+                src="/images/homeinspirations/luxuryhenholiday.png"
+                alt="Luxury Hen Holidays"
+                width={600}
+                height={400}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Stag Holidays</div>
+            <div className="images">
+              <Image
+                src="/images/homeinspirations/luxurystagholiday.png"
+                alt="Luxury Stag Holidays"
+                width={600}
+                height={400}
+              />
+            </div>
+          </div>
+          <div className="col-lg images-container">
+            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Vibrant Nightlife</div>
+            <div className="images">
+              <Image
+                src="/"
                 alt="Beach"
                 width={600}
                 height={400}

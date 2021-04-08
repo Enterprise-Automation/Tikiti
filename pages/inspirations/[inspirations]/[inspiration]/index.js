@@ -26,36 +26,7 @@ const Inspiration = () => {
     </div>
 
     <div className="container-contain"> 
-      <div className="row travel-details-container">
-        <div className="col-md-3">
-          <div className="travel-detail">
-            <div className="ttle">Flight Time</div>
-            <div className="value">{data?.flight_time}</div>
-            <div className="icon"><FontAwesomeIcon size="2x" icon={faPlaneDeparture} /></div>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="travel-detail">
-            <div className="title">Time Zone</div>
-            <div className="value">{data?.time_difference}</div>
-            <div className="icon"><FontAwesomeIcon size="2x" icon={faClock} /></div>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="travel-detail">
-            <div className="title">Currency</div>
-            <div className="value">{data?.currency}</div>
-            <div className="icon"><FontAwesomeIcon size="2x" icon={faMoneyBill} /></div>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="travel-detail">
-            <div className="title">Temperature</div>
-            <div className="value">{data?.temperature}</div>
-            <div className="icon"><FontAwesomeIcon size="2x" icon={faSun} /></div>
-          </div>
-        </div>
-    </div>
+      
 
      <div style={{paddingTop:"50px", marginBottom:"100px"}} className="container">
      <div style={{paddingBottom:"50px"}} className="row">
