@@ -18,6 +18,16 @@ body {
   background: #F1F1F1;
 }
 
+.inspiration-title{
+  padding: "10px";
+   position: "absolute";
+    z-index: 1;
+     color: "white";
+      font-weight: "bold";
+       font-family: "GillSans";
+        font-size: 30px;
+}
+
 .type-images{
   margin-bottom: 100px;
 }

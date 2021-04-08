@@ -18,10 +18,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      
-      
       <div className="video-background-container">
-     
         {/* <video className="bg-vid" ref={videoRef}  autoPlay loop muted width="100%">
           <source src="/videos/beachreverse.mp4" type="video/mp4" />
         </video> */}
@@ -47,7 +44,7 @@ export default function Home() {
       <div className="container type-images">
         <div className="row">
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Honeymoons</div>
+            <div className="inspiration-title" >Honeymoons</div>
             <div className="images">
               <Image
                 src="/images/homeinspirations/honeymoon.png"
@@ -59,7 +56,7 @@ export default function Home() {
             
           </div>
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Getaways</div>
+            <div className="inspiration-title" >Luxury Getaways</div>
             <div className="images">
               <Image
                 src="/"
@@ -72,7 +69,7 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Adventure Escapes</div>
+            <div className="inspiration-title">Adventure Escapes</div>
             <div className="images">
               <Image
                 src="/images/homeinspirations/adventureescapes.jpg"
@@ -83,7 +80,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Romantic Holidays</div>
+            <div className="inspiration-title" >Romantic Holidays</div>
             <div className="images">
               <Image
                 src="/"
@@ -96,7 +93,7 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Family Holidays</div>
+            <div className="inspiration-title">Family Holidays</div>
             <div className="images">
               <Image
                 src="/"
@@ -107,7 +104,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Hen Holidays</div>
+            <div className="inspiration-title" >Luxury Hen Holidays</div>
             <div className="images">
               <Image
                 src="/images/homeinspirations/luxuryhenholiday.png"
@@ -120,7 +117,7 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Luxury Stag Holidays</div>
+            <div className="inspiration-title">Luxury Stag Holidays</div>
             <div className="images">
               <Image
                 src="/images/homeinspirations/luxurystagholiday.png"
@@ -131,7 +128,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-lg images-container">
-            <div style={{ padding: "10px", position: "absolute", zIndex: 1, color: "white", fontWeight: "bold", fontFamily: "GillSans", fontSize: "30px" }}>Vibrant Nightlife</div>
+            <div className="inspiration-title" >Vibrant Nightlife</div>
             <div className="images">
               <Image
                 src="/"
